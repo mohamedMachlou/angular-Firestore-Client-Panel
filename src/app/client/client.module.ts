@@ -7,6 +7,7 @@ import { EditProductComponent } from './components/edit-product/edit-product.com
 import { LoginComponent } from './components/login/login.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ProductComponent } from './services/product/product.component';
 
 
 
@@ -18,7 +19,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     EditProductComponent,
     LoginComponent,
     LogoutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ProductComponent
   ],
   imports: [
     CommonModule
