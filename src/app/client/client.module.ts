@@ -7,9 +7,6 @@ import { EditProductComponent } from './components/edit-product/edit-product.com
 import { LoginComponent } from './components/login/login.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-import { ProductComponent } from './services/product/product.component';
-
-
 
 @NgModule({
   declarations: [
@@ -20,10 +17,7 @@ import { ProductComponent } from './services/product/product.component';
     LoginComponent,
     LogoutComponent,
     PageNotFoundComponent,
-    ProductComponent
   ],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule],
 })
-export class ClientModule { }
+export class ClientModule {}
