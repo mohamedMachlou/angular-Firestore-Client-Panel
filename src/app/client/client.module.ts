@@ -5,8 +5,9 @@ import { CreateProductComponent } from './components/create-product/create-produ
 import { CreateCategorieComponent } from './components/create-categorie/create-categorie.component';
 import { EditProductComponent } from './components/edit-product/edit-product.component';
 import { LoginComponent } from './components/login/login.component';
-import { LogoutComponent } from './components/logout/logout.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { RegisterComponent } from './components/register/register.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,9 +16,10 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     CreateCategorieComponent,
     EditProductComponent,
     LoginComponent,
-    LogoutComponent,
     PageNotFoundComponent,
+    RegisterComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
+  exports: [CreateProductComponent],
 })
 export class ClientModule {}

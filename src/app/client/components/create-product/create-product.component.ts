@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
+import { ProductService } from '../../services/product.service';
 
 @Component({
-  selector: 'app-create-product',
+  selector: 'create-product',
   templateUrl: './create-product.component.html',
-  styleUrl: './create-product.component.css'
+  styleUrl: './create-product.component.css',
 })
-export class CreateProductComponent {
-
-}
+export class CreateProductComponent {}

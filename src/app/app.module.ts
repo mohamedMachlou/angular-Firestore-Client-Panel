@@ -31,8 +31,6 @@ import { getDatabase, provideDatabase } from '@angular/fire/database';
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     provideDatabase(() => getDatabase()),
-    // provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideFirestore(() => getFirestore()),
   ],
   providers: [],
   bootstrap: [AppComponent],
