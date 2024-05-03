@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class RegisterComponent {
   register(f: any) {
-    console.log(f);
+    console.log(f.value);
   }
 }
