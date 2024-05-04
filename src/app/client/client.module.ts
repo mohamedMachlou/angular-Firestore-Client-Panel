@@ -8,6 +8,7 @@ import { LoginComponent } from './components/login/login.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { RegisterComponent } from './components/register/register.component';
 import { FormsModule } from '@angular/forms';
+import { AuthService } from './services/auth.service';
 
 @NgModule({
   declarations: [
@@ -21,5 +22,6 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [CommonModule, FormsModule],
   exports: [CreateProductComponent],
+  providers: [AuthService],
 })
 export class ClientModule {}
