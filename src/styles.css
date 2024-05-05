@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+/* Created by Developer Machlou Mohamed */
+
+/* Start Global Rules  */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  caret-color: transparent;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Small devices (portrait phones, 575px and  down) */
+@media (max-width: 575px) {
+  .container {
+    /* width: 570px; */
+    background-color: rgb(222, 250, 40);
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    /* width: 570px; */
+    background-color: aqua;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    /* width: 970px; */
+    background-color: rgb(90, 209, 26);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    /* width: 1170px; */
+    background-color: brown;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    /* width: 1170px; */
+    background-color: rgb(25, 97, 159);
+  }
+}
+
+/* End Global Rules  */
