@@ -1,3 +1,22 @@
+/* Create by Machlou Mohamed */
+/* Start Login CSS */
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container form {
+  box-shadow: #00000012 0px 1px 2px, #00000012 0px 2px 4px,
+    #00000012 0px 4px 8px, #00000012 0px 8px 16px, #00000012 0px 16px 32px,
+    #00000012 0px 32px 64px;
+  background-color: #abaeb2;
+  min-width: 350px;
+  min-height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
 .form-group {
   margin: 20px 30px;
   width: 80%;
@@ -14,15 +33,23 @@
 }
 .form-group input {
   margin-left: 10px;
-
+  padding-left: 15px;
   width: 100%;
-  min-height: 30px;
+  min-height: 40px;
   border: 2px solid blue;
   border-radius: 7px;
 }
 button {
-  width: 60%;
-  min-height: 30px;
+  width: 80%;
+  min-height: 35px;
   border: 2px solid blue;
   border-radius: 7px;
+  margin-top: 40px;
 }
+/* Small devices (portrait phones, 575px and  down) */
+@media (max-width: 575px) {
+  .container form {
+    min-width: 300px;
+  }
+}
+/* End Login CSS */
